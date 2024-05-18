@@ -10,4 +10,9 @@ def count_subarray_occurrences(arr1, arr2):
             count += 1
     return count
 
+arr1 = [1, 2, 3, 4, 2, 3, 4, 5, 2, 3, 4, 5, 3, 2, 4, 3, 4, 2, 3, 4, 5, 2, 3, 4, 5, 3, 2, 4]
+arr2 = [2, 3, 4]
 
+occurrences = count_subarray_occurrences(arr1, arr2)
+
+print(f'Число вхождений 2 массива в 1 как подпоследовательности: {occurrences}')
